@@ -1,0 +1,102 @@
+*{
+    background-color: black;
+}
+
+h1{
+background-color: brown;
+color:burlywood;
+font-family: fantasy;
+text-align: center;
+}
+
+div.intro{
+    border-radius: 20px;
+    border: 2px dotted white;
+    color: burlywood;
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
+    text-align: center;
+}
+#boxf1{
+margin-top: -185px;
+margin-left: 590px;
+}
+#boxf2{
+    margin-top: -52px;
+    margin-left: 650px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+}
+#boxf3{
+    margin-top: -52px;
+    margin-left: 710px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+    }
+#boxf4{
+margin-top: 10px;
+margin-left: 590px;
+width: 50px;
+height: 50px;
+border: 10px;
+background-color: red;
+border: 1px solid white;
+}
+#boxf5{
+    margin-top: -52px;
+    margin-left: 650px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+}
+#boxf6{
+    margin-top: -52px;
+    margin-left: 710px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+}
+#boxf7{
+    margin-top: 10px;
+    margin-left: 590px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+}
+#boxf8{
+    margin-top: -52px;
+    margin-left: 650px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid white;
+}
+#boxf9{
+    margin-top: -52px;
+    margin-left: 710px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+}
+.final{
+margin-left: 584px;
+margin-top: 10px;
+height: 189px;
+width: 177px;
+background-color: aliceblue;   
+opacity: 0.2;
+border: 3px solid brown;
+}
