@@ -105,15 +105,9 @@ background-color: aliceblue;
 opacity: 0.2;
 border: 3px solid brown;
 }
-.play-again{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blanchedalmond;
-    margin-top: 900px;
-    text-align: center;
-}
 
 #box1{
-    margin-left: 450px;
+    margin-left: 470px;
     margin-top: 80px;
     height: 70px;
     width: 70px;
@@ -121,120 +115,72 @@ border: 3px solid brown;
     border: 1px solid white;
 }
 #box2{
-    margin-left: 540px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box3{
-    margin-left: 630px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box4{
-    margin-left: 720px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box5{
-    margin-left: 810px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box6{
-    margin-left: 450px;
-    margin-top: 20px;
+    margin-left: 470px;
+    margin-top: 10px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box7{
-    margin-left: 540px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box8{
-    margin-left: 630px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box9{
-    margin-left: 720px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box12{
-    margin-left: 540px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box13{
-    margin-left: 630px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box14{
-    margin-left: 720px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box17{
-    margin-left: 540px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box18{
-    margin-left: 630px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid white;
-}
-#box19{
-    margin-left: 720px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box10{
-    margin-left: 810px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -242,74 +188,128 @@ border: 3px solid brown;
 }
 
 #box11{
-    margin-left: 450px;
-    margin-top: 20px;
+    margin-left: 470px;
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box12{
+    margin-left: 10px;
+    margin-top: -75px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box13{
+    margin-left: 10px;
+    margin-top: -75px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box14{
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box15{
-    margin-left: 810px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box16{
-    margin-left: 450px;
-    margin-top: 20px;
+    margin-left: 470px;
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box17{
+    margin-left: 10px;
+    margin-top: -75px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box18{
+    margin-left: 10px;
+    margin-top: -75px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid white;
+}
+#box19{
+    margin-left: 10px;
+    margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
 }
 #box20{
-    margin-left: 810px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
+    margin-left: 10px;
+    margin-top: -75px;
     background-color: red;
-    border: 1px solid white;
 }
 #box21{
-    margin-left: 450px;
-    margin-top: 20px;
-    height: 70px;
-    width: 70px;
+    margin-left: 470px;
+    margin-top: 10px;
     background-color: red;
-    border: 1px solid white;
 }
 #box22{
-    margin-left: 540px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
+    margin-left: 10px;
+    margin-top: -75px;
     background-color: red;
-    border: 1px solid white;
 }
 #box23{
-    margin-left: 630px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
+    margin-left: 10px;
+    margin-top: -75px;
     background-color: red;
-    border: 1px solid white;
 }
 #box24{
-    margin-left: 720px;
-    margin-top: -72px;
-    height: 70px;
-    width: 70px;
+    margin-left: 10px;
+    margin-top: -75px;
     background-color: red;
-    border: 1px solid white;
 }
 #box25{
-    margin-left: 810px;
-    margin-top: -72px;
+    margin-left: 10px;
+    margin-top: -75px;
+    background-color: gray;
+}
+/*
+.gameboard{
+    margin-left: 430px;
+    margin-top: -455px;
+    height: 470px;
+    width: 470px;
+    background-color: gainsboro;
+    opacity: 0.2;
+}
+*/
+.button{
     height: 70px;
     width: 70px;
-    background-color: red;
     border: 1px solid white;
+    cursor: pointer;
+    pointer-events: visible; 
+    display: inline-block;
+}
+.play-again{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+    margin-top: 900px;
+    text-align: center;
 }
