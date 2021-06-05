@@ -16,6 +16,15 @@ div.intro{
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
     text-align: center;
 }
+.final{
+    margin-left: 574px;
+    margin-top: 10px;
+    height: 189px;
+    width: 177px;
+    background-color: gray;   
+    opacity: 0.2;
+    border: 3px solid brown;
+    }
  #boxf1{
 margin-top: -185px;
 margin-left: 580px;
@@ -96,198 +105,244 @@ border: 1px solid white;
     background-color: red;
     border: 1px solid white;
 }
-.final{
-margin-left: 574px;
-margin-top: 10px;
-height: 189px;
-width: 177px;
-background-color: aliceblue;   
-opacity: 0.2;
-border: 3px solid brown;
-}
-
 #box1{
-    margin-left: 470px;
+    margin-left: 480px;
     margin-top: 80px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box2{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box3{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box4{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box5{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box6{
-    margin-left: 470px;
-    margin-top: 10px;
+    margin-left: 480px;
+    margin-top: 8px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box7{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box8{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box9{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box10{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 
 #box11{
-    margin-left: 470px;
-    margin-top: 10px;
+    margin-left: 480px;
+    margin-top: 8px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box12{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box13{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box14{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box15{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box16{
-    margin-left: 470px;
-    margin-top: 10px;
+    margin-left: 480px;
+    margin-top: 8px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box17{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box18{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box19{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     height: 70px;
     width: 70px;
     background-color: red;
     border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box20{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     background-color: red;
+    border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box21{
-    margin-left: 470px;
-    margin-top: 10px;
+    margin-left: 480px;
+    margin-top: 8px;
     background-color: red;
+    border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box22{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     background-color: red;
+    border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box23{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     background-color: red;
+    border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box24{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     background-color: red;
+    border: 1px solid white;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 #box25{
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -75px;
     background-color: gray;
+    border: 1px solid gray;
+    outline: 5px solid gray;
+    opacity: 0.8;
 }
 /*
 .gameboard{
@@ -302,7 +357,6 @@ border: 3px solid brown;
 .button{
     height: 70px;
     width: 70px;
-    border: 1px solid white;
     cursor: pointer;
     pointer-events: visible; 
     display: inline-block;
@@ -312,4 +366,28 @@ border: 3px solid brown;
     color: blanchedalmond;
     margin-top: 900px;
     text-align: center;
+}
+#table{
+    margin-left: 460px;
+    margin-top: -440px;
+    height: 430px;
+    width: 430px;
+    background-color: darkgreen;
+    visibility: hidden;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pa{
+height: 40px;
+width: 100px;    
+margin-left: 0px;
+margin-top: 40px;
+background-color: darkred;
+opacity: 1;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+cursor: pointer;
+visibility: inherit;
 }
