@@ -344,6 +344,55 @@ border: 1px solid white;
     outline: 5px solid gray;
     opacity: 0.8;
 }
+#tab{
+    margin-left: 460px;
+    margin-top: -440px;
+    height: 430px;
+    width: 430px;
+    background-color: whitesmoke;
+    display: none;
+    font-size: 40px;
+    text-align: center;
+    opacity: 0.9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#time{
+    height: 55px;
+    width: 140px;
+    margin-left: 40px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: darkred;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: inherit;
+}
+#score{
+    height: 60px;
+    width: 140px;
+    margin-left: 250px;
+    margin-top: -74px;
+    text-align: center;
+    background-color: darkred;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: inherit;
+}
+#pa{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 165px;
+    background-color: darkred;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: inherit;
+    cursor: pointer;
+
+}
 /*
 .gameboard{
     margin-left: 430px;
@@ -366,28 +415,4 @@ border: 1px solid white;
     color: blanchedalmond;
     margin-top: 900px;
     text-align: center;
-}
-#table{
-    margin-left: 460px;
-    margin-top: -440px;
-    height: 430px;
-    width: 430px;
-    background-color: darkgreen;
-    visibility: hidden;
-    font-size: 40px;
-    text-align: center;
-    opacity: 0.9;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#pa{
-height: 40px;
-width: 100px;    
-margin-left: 0px;
-margin-top: 40px;
-background-color: darkred;
-opacity: 1;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 15px;
-cursor: pointer;
-visibility: inherit;
 }

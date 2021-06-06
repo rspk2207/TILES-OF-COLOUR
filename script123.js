@@ -1,4 +1,5 @@
-let vis =0;
+let sec = 0;
+let gameplay =0;
 function winning(){
 if(document.getElementById("boxf1").style.backgroundColor == document.getElementById("box7").style.backgroundColor)
 {
@@ -18,8 +19,12 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
 {
     if(document.getElementById("boxf9").style.backgroundColor == document.getElementById("box19").style.backgroundColor)
 {
-    vis = 1;
-    document.getElementById("table").style.visibility = "visible";
+    gameplay = 1;
+    if(gameplay == 1)
+    timer();
+    setTimeout(function(){
+    document.getElementById("tab").style.display = "block";
+    }, 2000);
 }
 }
 }
@@ -29,6 +34,11 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
 }
 }
 }
+}
+function load()
+{
+    window.location.reload();
+    document.getElementById("tab").style.display = "none";
 }
 document.getElementById("box1").addEventListener('click', function() {winning()});
 document.getElementById("box2").addEventListener('click', function() {winning()});
@@ -55,3 +65,17 @@ document.getElementById("box22").addEventListener('click', function() {winning()
 document.getElementById("box23").addEventListener('click', function() {winning()});
 document.getElementById("box24").addEventListener('click', function() {winning()});
 document.getElementById("box25").addEventListener('click', function() {winning()});
+document.getElementById("pa").addEventListener('click', function(){load()});
+
+function count()
+{
+    sec += 1;
+}
+let tot = setInterval(count , 1000);
+function timer()
+{   
+    let toti = sec;
+    let tt = document.getElementById("time");
+     tt.innerHTML = "</br>" + "Time taken: " + Math.floor((toti)/60) + ":" + Math.floor((toti)%60); 
+    clearInterval(tot);
+}

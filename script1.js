@@ -22,7 +22,7 @@ for(let k=0;k<6;k++)
             if(arr[l]<3)
             {
                 rand = colorr[l];
-                arr++;
+                arr[l]++;
                 break;
             }
         }
