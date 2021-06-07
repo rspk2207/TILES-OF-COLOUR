@@ -1,6 +1,8 @@
 let sec = 0;
+let counts = 0;
 let gameplay =0;
 function winning(){
+    counts += 1;
 if(document.getElementById("boxf1").style.backgroundColor == document.getElementById("box7").style.backgroundColor)
 {
     if(document.getElementById("boxf2").style.backgroundColor == document.getElementById("box8").style.backgroundColor)
@@ -21,10 +23,11 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
 {
     gameplay = 1;
     if(gameplay == 1)
-    timer();
-    setTimeout(function(){
+    {
+        timer();
+        scorecard();
+    }
     document.getElementById("tab").style.display = "block";
-    }, 2000);
 }
 }
 }
@@ -76,6 +79,24 @@ function timer()
 {   
     let toti = sec;
     let tt = document.getElementById("time");
-     tt.innerHTML = "</br>" + "Time taken: " + Math.floor((toti)/60) + ":" + Math.floor((toti)%60); 
+    if((toti)%60 <10)
+     tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":0" + Math.floor((toti)%60);
+     else
+     tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":" + Math.floor((toti)%60);
     clearInterval(tot);
+}
+function scorecard()
+{
+    let total = sec;
+    let point;
+    if(counts <75)
+    {
+        point = (1000/total);
+    }
+    else
+    {
+        point = (10000/(total + counts));
+    }
+    let sc = document.getElementById("score");
+    sc.innerHTML = "</br>" + "Score : " + Math.floor(point) + " pts";
 }
