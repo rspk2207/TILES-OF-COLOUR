@@ -1,10 +1,10 @@
 body{
-    background-color: black;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgb(151, 0, 0), rgba(0,0,0,1))
 }
 
 h1{
 background-color: brown;
-color:burlywood;
+color:black;
 font-family: fantasy;
 text-align: center;
 }
@@ -12,102 +12,146 @@ text-align: center;
 div.intro{
     border-radius: 20px;
     border: 2px dotted white;
-    color: burlywood;
+    color: whitesmoke;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
     text-align: center;
 }
 .final{
-    margin-left: 574px;
-    margin-top: 10px;
-    height: 189px;
+    margin: auto;
+    position: absolute;
+    top: -75px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 175px;
     width: 177px;
     background-color: gray;   
     opacity: 0.2;
     border: 3px solid brown;
     }
  #boxf1{
-margin-top: -185px;
-margin-left: 580px;
+margin: auto;
+position: absolute;
+top: -189px;
+left: -115px;
+bottom: 0;
+right: 0;
 width: 50px;
 height: 50px;
 border: 10px;
 background-color: red;
 border: 1px solid black;
 }
-#boxf2{
-    margin-top: -52px;
-    margin-left: 640px;
+#boxf2 {
+    margin: auto;
+    position: absolute;
+    top: -189px;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     border: 10px;
     background-color: red;
     border: 1px solid black;
 }
-#boxf3{
-    margin-top: -52px;
-    margin-left: 700px;
-    width: 50px;
-    height: 50px;
-    border: 10px;
-    background-color: red;
-    border: 1px solid black;
-    }
-#boxf4{
-margin-top: 10px;
-margin-left: 580px;
-width: 50px;
-height: 50px;
-border: 10px;
-background-color: red;
-border: 1px solid black;
-}
-#boxf5{
-    margin-top: -52px;
-    margin-left: 640px;
+#boxf3 {
+    margin: auto;
+    position: absolute;
+    top: -189px;
+    left: 115px;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     border: 10px;
     background-color: red;
     border: 1px solid black;
 }
-#boxf6{
-    margin-top: -52px;
-    margin-left: 700px;
+#boxf4 {
+    margin: auto;
+    position: absolute;
+    top: -74px;
+    left: -115px;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     border: 10px;
     background-color: red;
     border: 1px solid black;
 }
-#boxf7{
-    margin-top: 10px;
-    margin-left: 580px;
+#boxf5 {
+    margin: auto;
+    position: absolute;
+    top: -74px;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     border: 10px;
     background-color: red;
     border: 1px solid black;
 }
-#boxf8{
-    margin-top: -52px;
-    margin-left: 640px;
+#boxf6 {
+    margin: auto;
+    position: absolute;
+    top: -74px;
+    left: 115px;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     border: 10px;
     background-color: red;
     border: 1px solid black;
 }
-#boxf9{
-    margin-top: -52px;
-    margin-left: 700px;
+#boxf7 {
+    margin: auto;
+    position: absolute;
+    top: 41px;
+    left: -115px;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+#boxf8 {
+    margin: auto;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+#boxf9 {
+    margin: auto;
+    position: absolute;
+    top: 41px;
+    left: 115px;
+    bottom: 0;
+    right: 0;
     width: 50px;
     height: 50px;
     background-color: red;
     border: 1px solid black;
 }
-#box1{
-    margin-left: 480px;
-    margin-top: 80px;
+#box1 {
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: -305px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -115,9 +159,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box2{
-    margin-left: 6px;
-    margin-top: -75px;
+#box2 {
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: -145px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -125,9 +173,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box3{
-    margin-left: 6px;
-    margin-top: -75px;
+#box3 {
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -135,9 +187,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box4{
-    margin-left: 6px;
-    margin-top: -75px;
+#box4 {
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: 175px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -145,9 +201,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box5{
-    margin-left: 6px;
-    margin-top: -75px;
+#box5 {
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: 335px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -155,9 +215,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box6{
-    margin-left: 480px;
-    margin-top: 8px;
+#box6 {
+    margin: auto;
+    position: absolute;
+    top: 460px;
+    left: -305px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -165,9 +229,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box7{
-    margin-left: 6px;
-    margin-top: -75px;
+#box7 {
+    margin: auto;
+    position: absolute;
+    top: 460px;
+    left: -145px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -175,9 +243,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box8{
-    margin-left: 6px;
-    margin-top: -75px;
+#box8 {
+    margin: auto;
+    position: absolute;
+    top: 460px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -185,9 +257,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box9{
-    margin-left: 6px;
-    margin-top: -75px;
+#box9 {
+    margin: auto;
+    position: absolute;
+    top: 460px;
+    left: 175px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -195,9 +271,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box10{
-    margin-left: 6px;
-    margin-top: -75px;
+#box10 {
+    margin: auto;
+    position: absolute;
+    top: 460px;
+    left: 335px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -206,9 +286,13 @@ border: 1px solid black;
     opacity: 0.8;
 }
 
-#box11{
-    margin-left: 480px;
-    margin-top: 8px;
+#box11 {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: -305px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -216,9 +300,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box12{
-    margin-left: 6px;
-    margin-top: -75px;
+#box12 {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: -145px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -226,9 +314,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box13{
-    margin-left: 6px;
-    margin-top: -75px;
+#box13 {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -236,9 +328,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box14{
-    margin-left: 6px;
-    margin-top: -75px;
+#box14 {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: 175px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -246,9 +342,13 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box15{
-    margin-left: 6px;
-    margin-top: -75px;
+#box15 {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: 335px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -256,9 +356,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box16{
-    margin-left: 480px;
-    margin-top: 8px;
+#box16 {
+    margin: auto;
+    position: absolute;
+    top: 780px;
+    left: -305px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -266,29 +370,13 @@ border: 1px solid black;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box17{
-    margin-left: 6px;
-    margin-top: -75px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid gray;
-    outline: 5px solid black;
-    opacity: 0.8;
-}
-#box18{
-    margin-left: 6px;
-    margin-top: -75px;
-    height: 70px;
-    width: 70px;
-    background-color: red;
-    border: 1px solid gray;
-    outline: 5px solid black;
-    opacity: 0.8;
-}
-#box19{
-    margin-left: 6px;
-    margin-top: -75px;
+#box17 {
+    margin: auto;
+    position: absolute;
+    top: 780px;
+    left: -145px;
+    bottom: 0;
+    right: 0;
     height: 70px;
     width: 70px;
     background-color: red;
@@ -296,57 +384,113 @@ border: 1px solid black;
     outline: 5px solid black;
     opacity: 0.8;
 }
-#box20{
-    margin-left: 6px;
-    margin-top: -75px;
+#box18 {
+    margin: auto;
+    position: absolute;
+    top: 780px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid gray;
+    outline: 5px solid black;
+    opacity: 0.8;
+}
+#box19 {
+    margin: auto;
+    position: absolute;
+    top: 780px;
+    left: 175px;
+    bottom: 0;
+    right: 0;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 1px solid gray;
+    outline: 5px solid black;
+    opacity: 0.8;
+}
+#box20 {
+    margin: auto;
+    position: absolute;
+    top: 780px;
+    left: 335px;
+    bottom: 0;
+    right: 0;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box21{
-    margin-left: 480px;
-    margin-top: 8px;
+#box21 {
+    margin: auto;
+    position: absolute;
+    top: 940px;
+    left: -305px;
+    bottom: 0;
+    right: 0;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box22{
-    margin-left: 6px;
-    margin-top: -75px;
+#box22 {
+    margin: auto;
+    position: absolute;
+    top: 940px;
+    left: -145px;
+    bottom: 0;
+    right: 0;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box23{
-    margin-left: 6px;
-    margin-top: -75px;
+#box23 {
+    margin: auto;
+    position: absolute;
+    top: 940px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box24{
-    margin-left: 6px;
-    margin-top: -75px;
+#box24 {
+    margin: auto;
+    position: absolute;
+    top: 940px;
+    left: 175px;
+    bottom: 0;
+    right: 0;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#box25{
-    margin-left: 6px;
-    margin-top: -75px;
+#box25 {
+    margin: auto;
+    position: absolute;
+    top: 940px;
+    left: 335px;
+    bottom: 0;
+    right: 0;
     background-color: gray;
     border: 1px solid gray;
     outline: 5px solid gray;
     opacity: 0.8;
 }
-#tab{
-    margin-left: 460px;
-    margin-top: -440px;
+#tab {
+    margin: auto;
+    position: absolute;
+    top: 620px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
     height: 430px;
     width: 430px;
     background-color: whitesmoke;
@@ -354,7 +498,7 @@ border: 1px solid black;
     font-size: 40px;
     text-align: center;
     opacity: 0.9;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #time{
     height: 55px;
@@ -367,8 +511,9 @@ border: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: inherit;
+    
 }
-#score{
+#score {
     height: 55px;
     width: 140px;
     margin-left: 250px;
@@ -379,8 +524,9 @@ border: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: inherit;
+    
 }
-#pa{
+#pa {
     height: 40px;
     width: 100px;
     margin-top: 20px;
@@ -391,7 +537,7 @@ border: 1px solid black;
     font-size: 15px;
     display: inherit;
     cursor: pointer;
-
+    
 }
 /*
 .gameboard{
@@ -416,4 +562,21 @@ border: 1px solid black;
     color: blanchedalmond;
     margin-top: 900px;
     text-align: center;
+}
+#clock {
+    color: lawngreen;
+    background-color: /*rgb(7,45,53)*/black;
+    margin: auto;
+    position: absolute;
+    top: 1150px;
+    left: 5px;
+    bottom: 0;
+    right: 0;
+    height: 75px;
+    width: 175px;
+    border: 3px solid lawngreen;
+    border-radius: 50%;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-size: x-large;
 }

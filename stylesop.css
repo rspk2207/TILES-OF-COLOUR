@@ -1,0 +1,51 @@
+body{
+    background-image: url("fworld.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(197, 145, 14);
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1 #home{
+    float: left;
+    height: 37px;
+    width: 35px;
+    border: 3px solid black;
+    background-image: url("home.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+#taskbar{
+    color: white;
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    display: none;
+    transition: 1s;
+}
+.intro{
+    margin: auto;
+    position: absolute;
+    top: 200px; left: 40px; bottom: 75px; right: 40px;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(197, 145, 14);
+    font-size:large;
+}
+div p{
+    text-align: center;
+    font-size: larger;
+}
+.lessgo{
+    background-color: rgb(197, 145, 14);
+    text-decoration-line: none;
+    margin: auto;
+    position: absolute;
+    top: o; left: 0; bottom: 30px; right: 0;
+}
