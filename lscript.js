@@ -1,4 +1,6 @@
 let i,j;
+let aud = new Audio('leadsound.mp3');
+aud.play();
 let sno = window.localStorage.getItem("count");
 for(i=1;i<=(sno-1);i++)
 {

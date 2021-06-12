@@ -1,4 +1,4 @@
-
+let audio = new Audio('blocksound.mp3');
 let c;
 function swap(c)
 {
@@ -6,6 +6,7 @@ if((c+1)<=25)
 {
 if (document.getElementById("box"+(c+1)).style.backgroundColor == "rgb(128, 128, 128)")
 {
+    audio.play();
     document.getElementById("box"+(c+1)).style.backgroundColor = document.getElementById("box"+c).style.backgroundColor;
     document.getElementById("box"+c).style.backgroundColor = "rgb(128, 128, 128)";
 }
@@ -14,6 +15,7 @@ if((c-1)>0)
 {
 if (document.getElementById("box"+(c-1)).style.backgroundColor == "rgb(128, 128, 128)")
 {
+    audio.play();
     document.getElementById("box"+(c-1)).style.backgroundColor = document.getElementById("box"+c).style.backgroundColor;
     document.getElementById("box"+c).style.backgroundColor = "rgb(128, 128, 128)";
 }
@@ -22,6 +24,7 @@ if((c+5)<=25)
 {
 if (document.getElementById("box"+(c+5)).style.backgroundColor == "rgb(128, 128, 128)")
 {
+    audio.play();
     document.getElementById("box"+(c+5)).style.backgroundColor = document.getElementById("box"+c).style.backgroundColor;
     document.getElementById("box"+c).style.backgroundColor = "rgb(128, 128, 128)";
 }
@@ -30,6 +33,7 @@ if((c-5)>0)
 {
 if (document.getElementById("box"+(c-5)).style.backgroundColor == "rgb(128, 128, 128)")
 {
+    audio.play();
     document.getElementById("box"+(c-5)).style.backgroundColor = document.getElementById("box"+c).style.backgroundColor;
     document.getElementById("box"+c).style.backgroundColor = "rgb(128, 128, 128)";
 }

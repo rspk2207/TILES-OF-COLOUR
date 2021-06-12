@@ -1,4 +1,5 @@
 let sec = 0;
+let audios = new Audio('gameover.mp3');
 let counts = 0;
 let gameplay =0;
 function winning(){
@@ -26,6 +27,7 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
     {
         timer();
         scorecard();
+        audios.play();
     }
     document.getElementById("tab").style.display = "block";
     document.getElementById("play-again").style.display = "none";
