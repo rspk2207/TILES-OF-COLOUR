@@ -28,6 +28,7 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
         scorecard();
     }
     document.getElementById("tab").style.display = "block";
+    document.getElementById("play-again").style.display = "none";
 }
 }
 }
@@ -40,6 +41,11 @@ if(document.getElementById("boxf1").style.backgroundColor == document.getElement
 }
 function load()
 {
+    let fresh = window.localStorage.getItem("number");
+    window.localStorage.removeItem("scorefinal" + fresh);
+    fresh--;
+    window.localStorage.setItem("number",fresh);
+
     window.location.reload();
     document.getElementById("tab").style.display = "none";
 }
@@ -69,7 +75,9 @@ document.getElementById("box23").addEventListener('click', function() {winning()
 document.getElementById("box24").addEventListener('click', function() {winning()});
 document.getElementById("box25").addEventListener('click', function() {winning()});
 document.getElementById("pa").addEventListener('click', function(){load()});
-
+document.getElementById("leaderboard").addEventListener("click",function(){golead();});
+document.getElementById("home").addEventListener("click",function(){gohome();});
+document.getElementById("play-again").addEventListener("click",function(){pagain();});
 function count()
 {
     sec += 1;
@@ -80,9 +88,13 @@ function timer()
     let toti = sec;
     let tt = document.getElementById("time");
     if((toti)%60 <10)
-     tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":0" + Math.floor((toti)%60);
-     else
-     tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":" + Math.floor((toti)%60);
+     {
+         tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":0" + Math.floor((toti)%60);
+     }
+         else
+    {
+         tt.innerHTML = "</br>" + "Time taken : 0" + Math.floor((toti)/60) + ":" + Math.floor((toti)%60);
+    }
     clearInterval(tot);
 }
 function scorecard()
@@ -91,7 +103,7 @@ function scorecard()
     let point;
     if(counts <75)
     {
-        point = (1000/total);
+        point = (10000/total);
     }
     else
     {
@@ -99,4 +111,31 @@ function scorecard()
     }
     let sc = document.getElementById("score");
     sc.innerHTML = "</br>" + "Score : " + Math.floor(point) + " pts";
+    if(window.localStorage.getItem("count")!= null)
+    {
+    let number = window.localStorage.getItem("number");
+    number++;
+    window.localStorage.setItem("scorefinal" + number, Math.floor(point));
+    window.localStorage.setItem("number",number);
 }
+}
+function golead(){
+    location.href = "leaderboard.html";
+}
+function gohome(){
+    
+    location.href = "indexop.html";
+}
+function clocks()
+    {
+        if((sec%60)<10)
+        {
+            document.getElementById("clock").innerHTML = "</br>0" + Math.floor(sec/60) + ":0" + Math.floor(sec%60);
+        }
+        else
+        document.getElementById("clock").innerHTML = "</br>0" + Math.floor(sec/60) + ":" + Math.floor(sec%60);
+    }
+function pagain(){
+    window.location.reload();
+}
+setInterval(clocks,1000);

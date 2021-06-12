@@ -11,23 +11,16 @@ h1{
     color: rgb(197, 145, 14);
     border: 3px solid white;
     background-color: rgba(0, 0, 0, 0.5);
-}
-h1 #home{
-    float: left;
-    height: 37px;
-    width: 35px;
     border: 3px solid black;
-    background-image: url("home.jpg");
-    background-size: cover;
-    cursor: pointer;
 }
-#taskbar{
-    color: white;
-    height: 100%;
-    width: 200px;
-    background-color: black;
-    display: none;
-    transition: 1s;
+h1 #leaderboard{
+    float: left;
+    border: 3px solid black;
+    height: 37px;
+    width: 0.5px;
+    background-color: rgb(197, 145, 14);
+    color: rgb(197, 145, 14);
+    cursor: pointer;
 }
 .intro{
     margin: auto;
@@ -37,15 +30,24 @@ h1 #home{
     background-color: rgba(0, 0, 0, 0.5);
     color: rgb(197, 145, 14);
     font-size:large;
+    overflow: auto;
 }
 div p{
     text-align: center;
     font-size: larger;
 }
-.lessgo{
+#lessgo{
     background-color: rgb(197, 145, 14);
     text-decoration-line: none;
+    height: 30px;
     margin: auto;
     position: absolute;
     top: o; left: 0; bottom: 30px; right: 0;
+    cursor: pointer;
+    border: 3px solid black;
+}
+#user
+{
+    margin-top: 20px;
+    margin-left: 41px;
 }

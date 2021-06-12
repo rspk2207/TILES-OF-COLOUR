@@ -64,5 +64,9 @@ document.getElementById("box22").addEventListener("click" , function(){swap(22)}
 document.getElementById("box23").addEventListener("click" , function(){swap(23)});
 document.getElementById("box24").addEventListener("click" , function(){swap(24)});
 document.getElementById("box25").addEventListener("click" , function(){swap(25)});
+document.getElementById("home").addEventListener("click",function(){gotomain()});
 
 
+function gotomain(){
+location.href = "indexop.html";
+}

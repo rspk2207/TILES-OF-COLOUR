@@ -1,0 +1,68 @@
+body{
+    background-image: url("lead.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: center;
+    border: 3px solid black;
+}
+h2{
+    text-align: center;
+    color: darkgoldenrod;
+    background-color: black;
+    border: 3px solid darkgoldenrod;
+}
+/*
+table{
+    background-color: darkgoldenrod;
+    color: black;
+}
+*/
+#lead{
+    margin: auto;
+    overflow: auto;
+    height: 400px;
+    width: 200px;
+    padding: 20px 10px 0px 10px;
+    position: absolute;
+    top: 200px; left: 0; bottom: 40px; right: 0;
+    color: black;
+    border:1px solid black;
+    outline:3px solid darkgoldenrod;
+}
+#board{
+    background-color: black;
+    color: darkgoldenrod;
+    border: 3px solid darkgoldenrod;
+}
+#t1,#t2,#t3{
+    background-color: darkgoldenrod;
+    color: black;
+}
+tbody{
+    background-color: black;
+    color: darkgoldenrod;
+    
+
+}
+tr:nth-child(even){
+    background-color: rgb(36, 34, 34);
+}
+#home{
+    margin: auto;
+    position: absolute;
+    top: -350px; left: 0; bottom: 0; right: 0;
+    height: 30px;
+    width: 80px;
+    background-color: darkgoldenrod;
+    color: black;
+    border:3px solid black;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: medium;
+}

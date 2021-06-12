@@ -1,5 +1,8 @@
 body{
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgb(151, 0, 0), rgba(0,0,0,1))
+    background-image: url("dragon3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
@@ -7,12 +10,31 @@ background-color: brown;
 color:black;
 font-family: fantasy;
 text-align: center;
+border: 3px solid black;
+}
+
+h1 #home{
+    float: right;
+    height: 39px;
+    width: 120px;
+    background-color: darkred;
+    cursor: pointer;
+    border: 3px solid black;
+}
+h1 #leaderboard{
+    float: left;
+    height: 39px;
+    width: 120px;
+    background-color: darkred;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 div.intro{
     border-radius: 20px;
-    border: 2px dotted white;
-    color: whitesmoke;
+    border: 2px dotted black;
+    color: black;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
     text-align: center;
 }
@@ -157,7 +179,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box2 {
     margin: auto;
@@ -171,7 +192,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box3 {
     margin: auto;
@@ -185,7 +205,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box4 {
     margin: auto;
@@ -199,7 +218,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box5 {
     margin: auto;
@@ -213,7 +231,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box6 {
     margin: auto;
@@ -227,7 +244,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box7 {
     margin: auto;
@@ -241,7 +257,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box8 {
     margin: auto;
@@ -255,7 +270,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box9 {
     margin: auto;
@@ -269,7 +283,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box10 {
     margin: auto;
@@ -283,7 +296,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 
 #box11 {
@@ -298,7 +310,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box12 {
     margin: auto;
@@ -312,7 +323,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box13 {
     margin: auto;
@@ -326,7 +336,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box14 {
     margin: auto;
@@ -340,7 +349,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box15 {
     margin: auto;
@@ -354,7 +362,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box16 {
     margin: auto;
@@ -368,7 +375,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box17 {
     margin: auto;
@@ -382,7 +388,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box18 {
     margin: auto;
@@ -396,7 +401,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box19 {
     margin: auto;
@@ -410,7 +414,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid black;
-    opacity: 0.8;
 }
 #box20 {
     margin: auto;
@@ -422,7 +425,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box21 {
     margin: auto;
@@ -434,7 +436,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box22 {
     margin: auto;
@@ -446,7 +447,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box23 {
     margin: auto;
@@ -458,7 +458,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box24 {
     margin: auto;
@@ -470,7 +469,6 @@ border: 1px solid black;
     background-color: red;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #box25 {
     margin: auto;
@@ -482,7 +480,6 @@ border: 1px solid black;
     background-color: gray;
     border: 1px solid gray;
     outline: 5px solid gray;
-    opacity: 0.8;
 }
 #tab {
     margin: auto;
@@ -493,11 +490,14 @@ border: 1px solid black;
     right: 0;
     height: 430px;
     width: 430px;
-    background-color: whitesmoke;
+    background-image: url("dragon2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: none;
+    border: 5px solid black;
     font-size: 40px;
     text-align: center;
-    opacity: 0.9;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #time{
@@ -511,19 +511,21 @@ border: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: inherit;
+    border: 3px solid black;
     
 }
 #score {
     height: 55px;
     width: 140px;
     margin-left: 250px;
-    margin-top: -70px;
+    margin-top: -76px;
     text-align: center;
     background-color: red;
     opacity: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: inherit;
+    border: 3px solid black;
     
 }
 #pa {
@@ -532,7 +534,7 @@ border: 1px solid black;
     margin-top: 20px;
     margin-left: 165px;
     background-color: red;
-    opacity: 1;
+    border: 2px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     display: inherit;
@@ -557,11 +559,20 @@ border: 1px solid black;
     transition: 0.3s;
     display: inline-block;
 }
-.play-again{
+#play-again{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: blanchedalmond;
-    margin-top: 900px;
+    color: black;
+    background-color: darkred;
+    height: 40px;
+    width: 100px;
+    margin:auto;
+    position: absolute;
+    top: 160px; left: 0; bottom: 0; right: 0;
+    cursor: pointer;
     text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    display: block;
 }
 #clock {
     color: lawngreen;
