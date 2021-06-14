@@ -21,9 +21,9 @@ for(i=1;i<=(sno-1);i++)
 }
 
 
-
-
-
+/*
+USE window.localStorage.clear(); whenever something goes wrong in the leaderboard
+*/
 
 
 
@@ -43,5 +43,5 @@ if(window.localStorage.getItem("count"))
 document.getElementById("home").addEventListener("click",function(){gotohome();});
 
 function gotohome(){
-    location.href = "indexop.html";
+    location.href = "index.html";
 }

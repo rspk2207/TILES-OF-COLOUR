@@ -72,5 +72,5 @@ document.getElementById("home").addEventListener("click",function(){gotomain()})
 
 
 function gotomain(){
-location.href = "indexop.html";
+location.href = "index.html";
 }

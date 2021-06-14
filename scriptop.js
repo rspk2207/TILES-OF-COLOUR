@@ -6,7 +6,7 @@ counter++;
 let lessgo = document.querySelector("#username").value;
 window.localStorage.setItem("user" + counter, lessgo);
 window.localStorage.setItem("count",counter);
-location.href = "index.html";
+location.href = "game.html";
 }
 function golead(){
     location.href = "leaderboard.html";

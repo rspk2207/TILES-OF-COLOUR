@@ -126,7 +126,7 @@ function golead(){
 }
 function gohome(){
     
-    location.href = "indexop.html";
+    location.href = "index.html";
 }
 function clocks()
     {
