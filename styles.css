@@ -1,5 +1,5 @@
 body{
-    background-image: url("dragon3.jpg");
+    background-image: url("dragon6.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -7,9 +7,10 @@ body{
 
 h1{
 background-color: brown;
-color:black;
+color:darkkhaki;
 font-family: fantasy;
 text-align: center;
+text-shadow: 2px 2px black;
 border: 3px solid black;
 }
 
@@ -17,7 +18,11 @@ h1 #home{
     float: right;
     height: 39px;
     width: 120px;
+    color: darkkhaki;
+    text-shadow: 2px 2px black;
     background-color: darkred;
+    font-family: fantasy;
+    font-size: large;
     cursor: pointer;
     border: 3px solid black;
 }
@@ -27,7 +32,10 @@ h1 #leaderboard{
     width: 120px;
     background-color: darkred;
     border: 3px solid black;
-    font-weight: bold;
+    color: darkkhaki;
+    font-size: large;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
     cursor: pointer;
 }
 
@@ -484,27 +492,28 @@ border: 1px solid black;
 #tab {
     margin: auto;
     position: absolute;
-    top: 620px;
+    top: 650px;
     left: 15px;
     bottom: 0;
     right: 0;
     height: 430px;
-    width: 430px;
-    background-image: url("dragon2.jpg");
+    width: 730px;
+    background-image: url("dragon5.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     display: none;
     border: 5px solid black;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
+    color: darkkhaki;
+    text-shadow: 2px 2px black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #time{
     height: 55px;
     width: 140px;
     margin-left: 40px;
-    margin-top: 0px;
+    margin-top: 250px;
     text-align: center;
     background-color: red;
     opacity: 1;
@@ -517,7 +526,7 @@ border: 1px solid black;
 #score {
     height: 55px;
     width: 140px;
-    margin-left: 250px;
+    margin-left: 540px;
     margin-top: -76px;
     text-align: center;
     background-color: red;
@@ -531,8 +540,21 @@ border: 1px solid black;
 #pa {
     height: 40px;
     width: 100px;
-    margin-top: 20px;
-    margin-left: 165px;
+    margin-top: -65px;
+    margin-left: 240px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: inherit;
+    cursor: pointer;
+    
+}
+#hacker {
+    height: 40px;
+    width: 100px;
+    margin-top:-40px;
+    margin-left: 390px;
     background-color: red;
     border: 2px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -575,17 +597,17 @@ border: 1px solid black;
     display: block;
 }
 #clock {
-    color: lawngreen;
+    color: darkkhaki;
     background-color: /*rgb(7,45,53)*/black;
     margin: auto;
     position: absolute;
-    top: 1150px;
+    top: 1200px;
     left: 5px;
     bottom: 0;
     right: 0;
     height: 75px;
     width: 175px;
-    border: 3px solid lawngreen;
+    border: 3px solid darkred;
     border-radius: 50%;
     text-align: center;
     font-family: Courier New, Courier, monospace;

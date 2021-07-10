@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-background-color: gold;
+background-color: rgb(59, 151, 236);
 color:darkred;
 text-shadow: 2px 2px black;
 font-family: fantasy;
@@ -20,7 +20,7 @@ h1 #home{
     width: 120px;
     background-color: darkred;
     cursor: pointer;
-    color: gold;
+    color: rgb(59, 151, 236);
     font-family: fantasy;
     font-size: large;
     text-shadow: 2px 2px black;
@@ -32,7 +32,7 @@ h1 #leaderboard{
     width: 120px;
     background-color: darkred;
     border: 3px solid black;
-    color: gold;
+    color: rgb(59, 151, 236);
     font-family: fantasy;
     font-size: large;
     text-shadow: 2px 2px black;
@@ -746,6 +746,7 @@ border: 1px solid black;
     width: 730px;
     background-image: url("dragon2.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     display: none;
     border: 5px solid black;
     font-size: 20px;
@@ -829,7 +830,7 @@ border: 1px solid black;
     display: block;
 }
 #hclock {
-    color: lawngreen;
+    color: rgb(59, 151, 236);
     background-color: /*rgb(7,45,53)*/black;
     margin: auto;
     position: absolute;
@@ -839,7 +840,7 @@ border: 1px solid black;
     right: 0;
     height: 75px;
     width: 175px;
-    border: 3px solid lawngreen;
+    border: 3px solid rgb(59, 151, 236);
     border-radius: 50%;
     text-align: center;
     font-family: Courier New, Courier, monospace;

@@ -77,6 +77,7 @@ document.getElementById("box23").addEventListener('click', function() {winning()
 document.getElementById("box24").addEventListener('click', function() {winning()});
 document.getElementById("box25").addEventListener('click', function() {winning()});
 document.getElementById("pa").addEventListener('click', function(){load()});
+document.getElementById("hacker").addEventListener('click', function(){hacker()});
 document.getElementById("leaderboard").addEventListener("click",function(){golead();});
 document.getElementById("home").addEventListener("click",function(){gohome();});
 document.getElementById("play-again").addEventListener("click",function(){pagain();});
@@ -127,6 +128,10 @@ function golead(){
 function gohome(){
     
     location.href = "index.html";
+}
+function hacker(){
+    
+    location.href = "hacker.html";
 }
 function clocks()
     {
