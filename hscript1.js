@@ -5,25 +5,26 @@ for(let i=1;i<17;i++)
 {
 let g = document.getElementById("hboxf" + i);
 let rand = colorr[Math.floor(Math.random() * colorr.length)];
+down:
 for(let k=0;k<6;k++)
 {
-    if(arr[k]<4)
+    if(arr[k]<3)
     {
     if(rand == colorr[k])
     {
         arr[k]++;
-        break;
+        break down;
     }
     }
     else
     {
         for(let l=0;l<6;l++)
         {
-            if(arr[l]<4)
+            if(arr[l]<3)
             {
                 rand = colorr[l];
                 arr[l]++;
-                break;
+                break down;
             }
         }
     }

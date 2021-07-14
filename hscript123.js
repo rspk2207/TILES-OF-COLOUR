@@ -145,10 +145,9 @@ function scorecard()
     }
     let sc = document.getElementById("hscore");
     sc.innerHTML = "</br>" + "Score : " + Math.floor(point) + " pts";
-    if(window.localStorage.getItem("hcount")!= null)
+    if(window.localStorage.getItem("count")!= null)
     {
     let number = window.localStorage.getItem("hnumber");
-    number++;
     window.localStorage.setItem("hscorefinal" + number, Math.floor(point));
     window.localStorage.setItem("hnumber",number);
 }

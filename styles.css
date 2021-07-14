@@ -42,9 +42,11 @@ h1 #leaderboard{
 div.intro{
     border-radius: 20px;
     border: 2px dotted black;
-    color: black;
+    color: darkkhaki;
+    font-weight: bold;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 .final{
     margin: auto;
@@ -612,4 +614,517 @@ border: 1px solid black;
     text-align: center;
     font-family: Courier New, Courier, monospace;
     font-size: x-large;
+}
+@media only screen and (max-width: 767px)
+{
+    h1 #home{
+        float: right;
+        height: 17px;
+        width: 60px;
+        background-color: darkred;
+        cursor: pointer;
+        color: darkkhaki;
+        font-family: fantasy;
+        font-size:xx-small;
+        text-shadow: 1px 1px black;
+        border: 1px solid black;
+    }
+    h1 #leaderboard{
+        float: left;
+        height: 17px;
+        width: 60px;
+        background-color: darkred;
+        border: 1px solid black;
+        color: darkkhaki;
+        font-family: fantasy;
+        font-size: xx-small;
+        text-shadow: 1px 1px black;
+        cursor: pointer;
+    }
+    h1{
+        background-color: brown;
+        color:darkkhaki;
+        text-shadow: 1px 1px black;
+        font-family: fantasy;
+        text-align: center;
+        font-size: smaller;
+        border: 3px solid black;
+        }
+        #tab {
+            margin: auto;
+            position: absolute;
+            top: 650px;
+            left: 15px;
+            bottom: 0;
+            right: 0;
+            height: 52%;
+            width: 90%;
+            background-image: url("dragon5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: none;
+            border: 5px solid black;
+            font-size: 20px;
+            text-align: center;
+            color: darkkhaki;
+            text-shadow: 2px 2px black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #time{
+            height: 55px;
+            width: 100px;
+            margin-left: 10%;
+            margin-top: 20%;
+            text-align: center;
+            background-color: red;
+            opacity: 1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            border: 3px solid black;
+            
+        }
+        #score {
+            height: 55px;
+            width: 100px;
+            margin-left: 70%;
+            margin-top: -76px;
+            text-align: center;
+            background-color: red;
+            opacity: 1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            border: 3px solid black;
+            
+        }
+        #pa {
+            height: 40px;
+            width: 50px;
+            margin-top: -64px;
+            margin-left: 39%;
+            background-color: red;
+            border: 2px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            cursor: pointer;
+            
+        }
+        #hacker {
+            height: 40px;
+            width: 50px;
+            margin-top:-40px;
+            margin-left: 53%;
+            background-color: red;
+            border: 2px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            cursor: pointer;
+            
+        }
+}
+@media only screen and (max-width: 410px)
+{
+    #tab {
+        margin: auto;
+        position: absolute;
+        top: 650px;
+        left: 15px;
+        bottom: 0;
+        right: 0;
+        height: 65%;
+        width: 95%;
+        background-image: url("dragon5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+        border: 5px solid black;
+        font-size: 20px;
+        text-align: center;
+        color: darkkhaki;
+        text-shadow: 2px 2px black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #time{
+        height: 55px;
+        width: 80px;
+        margin-left: 5%;
+        margin-top: 20%;
+        text-align: center;
+        background-color: red;
+        opacity: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        border: 3px solid black;
+        
+    }
+    #score {
+        height: 55px;
+        width: 80px;
+        margin-left: 70%;
+        margin-top: -76px;
+        text-align: center;
+        background-color: red;
+        opacity: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        border: 3px solid black;
+        
+    }
+    #pa {
+        height: 40px;
+        width: 50px;
+        margin-top: -64px;
+        margin-left: 34%;
+        background-color: red;
+        border: 2px solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        cursor: pointer;
+        
+    }
+    #hacker {
+        height: 40px;
+        width: 50px;
+        margin-top:-40px;
+        margin-left: 53%;
+        background-color: red;
+        border: 2px solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        cursor: pointer;
+        
+    }
+    #box1 {
+        margin: auto;
+        position: absolute;
+        top: 300px;
+        left: -280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box2 {
+        margin: auto;
+        position: absolute;
+        top: 300px;
+        left: -140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box3 {
+        margin: auto;
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box4 {
+        margin: auto;
+        position: absolute;
+        top: 300px;
+        left: 140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box5 {
+        margin: auto;
+        position: absolute;
+        top: 300px;
+        left: 280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box6 {
+        margin: auto;
+        position: absolute;
+        top: 440px;
+        left: -280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box7 {
+        margin: auto;
+        position: absolute;
+        top: 440px;
+        left: -140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box8 {
+        margin: auto;
+        position: absolute;
+        top: 440px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box9 {
+        margin: auto;
+        position: absolute;
+        top: 440px;
+        left: 140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box10 {
+        margin: auto;
+        position: absolute;
+        top: 440px;
+        left: 280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    
+    #box11 {
+        margin: auto;
+        position: absolute;
+        top: 580px;
+        left: -280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box12 {
+        margin: auto;
+        position: absolute;
+        top: 580px;
+        left: -140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box13 {
+        margin: auto;
+        position: absolute;
+        top: 580px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box14 {
+        margin: auto;
+        position: absolute;
+        top: 580px;
+        left: 140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box15 {
+        margin: auto;
+        position: absolute;
+        top: 580px;
+        left: 280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box16 {
+        margin: auto;
+        position: absolute;
+        top: 720px;
+        left: -280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box17 {
+        margin: auto;
+        position: absolute;
+        top: 720px;
+        left: -140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box18 {
+        margin: auto;
+        position: absolute;
+        top: 720px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box19 {
+        margin: auto;
+        position: absolute;
+        top: 720px;
+        left: 140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid black;
+    }
+    #box20 {
+        margin: auto;
+        position: absolute;
+        top: 720px;
+        left: 280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box21 {
+        margin: auto;
+        position: absolute;
+        top: 860px;
+        left: -280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box22 {
+        margin: auto;
+        position: absolute;
+        top: 860px;
+        left: -140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box23 {
+        margin: auto;
+        position: absolute;
+        top: 860px;
+        left: 0px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box24 {
+        margin: auto;
+        position: absolute;
+        top: 860px;
+        left: 140px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: red;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
+    #box25 {
+        margin: auto;
+        position: absolute;
+        top: 860px;
+        left: 280px;
+        bottom: 0;
+        right: 0;
+        height: 60px;
+        width: 60px;
+        background-color: gray;
+        border: 1px solid gray;
+        outline: 5px solid gray;
+    }
 }

@@ -42,9 +42,11 @@ h1 #leaderboard{
 div.h_intro{
     border-radius: 20px;
     border: 2px dotted black;
-    color: black;
+    color: darkred;
+    font-weight: bold;
     font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 .hfinal{
     margin: auto;
@@ -783,6 +785,7 @@ border: 1px solid black;
     border: 3px solid black;
     
 }
+
 #hpa {
     height: 40px;
     width: 100px;
@@ -845,4 +848,165 @@ border: 1px solid black;
     text-align: center;
     font-family: Courier New, Courier, monospace;
     font-size: x-large;
+}
+@media only screen and (max-width: 767px)
+{
+    h1 #home{
+        float: right;
+        height: 17px;
+        width: 60px;
+        background-color: darkred;
+        cursor: pointer;
+        color: rgb(59, 151, 236);
+        font-family: fantasy;
+        font-size:xx-small;
+        text-shadow: 1px 1px black;
+        border: 1px solid black;
+    }
+    h1 #leaderboard{
+        float: left;
+        height: 17px;
+        width: 60px;
+        background-color: darkred;
+        border: 1px solid black;
+        color: rgb(59, 151, 236);
+        font-family: fantasy;
+        font-size: xx-small;
+        text-shadow: 1px 1px black;
+        cursor: pointer;
+    }
+    h1{
+        background-color: rgb(59, 151, 236);
+        color:darkred;
+        text-shadow: 1px 1px black;
+        font-family: fantasy;
+        text-align: center;
+        font-size: smaller;
+        border: 3px solid black;
+        }
+        #htab {
+            margin: auto;
+            position: absolute;
+            top: 650px;
+            left: 15px;
+            bottom: 0;
+            right: 0;
+            height: 55%;
+            width: 99%;
+            background-image: url("dragon2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: none;
+            border: 5px solid black;
+            font-size: 20px;
+            text-align: center;
+            color: darkkhaki;
+            text-shadow: 2px 2px black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #htime{
+            height: 55px;
+            width: 100px;
+            margin-left: 10%;
+            margin-top: 20%;
+            text-align: center;
+            background-color: red;
+            opacity: 1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            border: 3px solid black;
+            
+        }
+        #hscore {
+            height: 55px;
+            width: 100px;
+            margin-left: 60%;
+            margin-top: -76px;
+            text-align: center;
+            background-color: red;
+            opacity: 1;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            border: 3px solid black;
+            
+        }
+        #hpa {
+            height: 40px;
+            width: 50px;
+            margin-top: -64px;
+            margin-left: 42%;
+            background-color: red;
+            border: 2px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            display: inherit;
+            cursor: pointer;
+            
+        }
+}
+@media only screen and (max-width: 410px)
+{
+    #htab {
+        margin: auto;
+        position: absolute;
+        top: 650px;
+        left: 15px;
+        bottom: 0;
+        right: 0;
+        height: 55%;
+        width: 95%;
+        background-image: url("dragon2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+        border: 5px solid black;
+        font-size: 20px;
+        text-align: center;
+        color: darkkhaki;
+        text-shadow: 2px 2px black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #htime{
+        height: 55px;
+        width: 80px;
+        margin-left: 10%;
+        margin-top: 20%;
+        text-align: center;
+        background-color: red;
+        opacity: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        border: 3px solid black;
+        
+    }
+    #hscore {
+        height: 55px;
+        width: 80px;
+        margin-left: 65%;
+        margin-top: -76px;
+        text-align: center;
+        background-color: red;
+        opacity: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        border: 3px solid black;
+        
+    }
+    #hpa {
+        height: 40px;
+        width: 50px;
+        margin-top: -64px;
+        margin-left: 42%;
+        background-color: red;
+        border: 2px solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        display: inherit;
+        cursor: pointer;
+        
+    }
 }

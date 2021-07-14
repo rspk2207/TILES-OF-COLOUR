@@ -2,6 +2,8 @@ let sec = 0;
 let audios = new Audio('gameover.mp3');
 let counts = 0;
 let gameplay =0;
+let numb = window.localStorage.getItem("number");
+window.localStorage.setItem("scorefinal"+numb,0);
 function winning(){
     counts += 1;
 if(document.getElementById("boxf1").style.backgroundColor == document.getElementById("box7").style.backgroundColor)
@@ -120,6 +122,7 @@ function scorecard()
     number++;
     window.localStorage.setItem("scorefinal" + number, Math.floor(point));
     window.localStorage.setItem("number",number);
+    window.localStorage.setItem("hscorefinal"+number,0);
 }
 }
 function golead(){
@@ -130,7 +133,8 @@ function gohome(){
     location.href = "index.html";
 }
 function hacker(){
-    
+    let number = window.localStorage.getItem("number");
+    window.localStorage.setItem("hnumber",number);
     location.href = "hacker.html";
 }
 function clocks()
