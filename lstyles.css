@@ -8,12 +8,14 @@ h1{
     background-color: darkgoldenrod;
     color: black;
     text-align: center;
+    font-family: 'MedievalSharp', cursive;
     border: 3px solid black;
 }
 h2{
     text-align: center;
     color: darkgoldenrod;
     background-color: black;
+    font-family: 'MedievalSharp', cursive;
     border: 3px solid darkgoldenrod;
 }
 /*
@@ -26,7 +28,7 @@ table{
     margin: auto;
     overflow: auto;
     height: 400px;
-    width: 530px;
+    width: 500px;
     padding: 20px 10px 0px 10px;
     position: absolute;
     top: 200px; left: 0; bottom: 40px; right: 0;
@@ -37,6 +39,7 @@ table{
 #board{
     background-color: black;
     color: darkgoldenrod;
+    font-family: 'MedievalSharp', cursive;
     border: 3px solid darkgoldenrod;
 }
 #t1,#t2,#t3,#t4,#t5{
@@ -46,8 +49,6 @@ table{
 tbody{
     background-color: black;
     color: darkgoldenrod;
-    
-
 }
 tr:nth-child(even){
     background-color: rgb(36, 34, 34);
@@ -62,7 +63,7 @@ tr:nth-child(even){
     color: black;
     border:3px solid black;
     cursor: pointer;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'MedievalSharp', cursive;
     font-weight: bolder;
     font-size: medium;
 }

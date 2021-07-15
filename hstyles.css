@@ -9,7 +9,7 @@ h1{
 background-color: rgb(59, 151, 236);
 color:darkred;
 text-shadow: 2px 2px black;
-font-family: fantasy;
+font-family: 'MedievalSharp', cursive;
 text-align: center;
 border: 3px solid black;
 }
@@ -21,8 +21,8 @@ h1 #home{
     background-color: darkred;
     cursor: pointer;
     color: rgb(59, 151, 236);
-    font-family: fantasy;
-    font-size: large;
+    font-family: 'MedievalSharp', cursive;
+    font-size: medium;
     text-shadow: 2px 2px black;
     border: 3px solid black;
 }
@@ -33,8 +33,8 @@ h1 #leaderboard{
     background-color: darkred;
     border: 3px solid black;
     color: rgb(59, 151, 236);
-    font-family: fantasy;
-    font-size: large;
+    font-family: 'MedievalSharp', cursive;
+    font-size: medium;
     text-shadow: 2px 2px black;
     cursor: pointer;
 }
@@ -44,7 +44,7 @@ div.h_intro{
     border: 2px dotted black;
     color: darkred;
     font-weight: bold;
-    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     text-align: center;
     text-shadow: 1px 1px black;
 }
@@ -755,7 +755,7 @@ border: 1px solid black;
     text-align: center;
     color: darkkhaki;
     text-shadow:2px 2px black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
 }
 #htime{
     height: 55px;
@@ -765,7 +765,7 @@ border: 1px solid black;
     text-align: center;
     background-color: red;
     opacity: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     font-size: 15px;
     display: inherit;
     border: 3px solid black;
@@ -779,7 +779,7 @@ border: 1px solid black;
     text-align: center;
     background-color: red;
     opacity: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     font-size: 15px;
     display: inherit;
     border: 3px solid black;
@@ -793,7 +793,7 @@ border: 1px solid black;
     margin-left: 320px;
     background-color: red;
     border: 2px solid black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     font-size: 15px;
     display: inherit;
     cursor: pointer;
@@ -818,7 +818,7 @@ border: 1px solid black;
     display: inline-block;
 }
 #play-again{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     color: black;
     background-color: darkred;
     height: 40px;
@@ -828,8 +828,7 @@ border: 1px solid black;
     top: 200px; left: 0; bottom: 0; right: 0;
     cursor: pointer;
     text-align: center;
-    font-family: fantasy;
-    font-size: larger;
+    font-size: medium;
     display: block;
 }
 #hclock {
@@ -846,7 +845,7 @@ border: 1px solid black;
     border: 3px solid rgb(59, 151, 236);
     border-radius: 50%;
     text-align: center;
-    font-family: Courier New, Courier, monospace;
+    font-family: 'MedievalSharp', cursive;
     font-size: x-large;
 }
 @media only screen and (max-width: 767px)
@@ -854,11 +853,11 @@ border: 1px solid black;
     h1 #home{
         float: right;
         height: 17px;
-        width: 60px;
+        width: 70px;
         background-color: darkred;
         cursor: pointer;
         color: rgb(59, 151, 236);
-        font-family: fantasy;
+        font-family: 'MedievalSharp', cursive;
         font-size:xx-small;
         text-shadow: 1px 1px black;
         border: 1px solid black;
@@ -866,11 +865,11 @@ border: 1px solid black;
     h1 #leaderboard{
         float: left;
         height: 17px;
-        width: 60px;
+        width: 70px;
         background-color: darkred;
         border: 1px solid black;
         color: rgb(59, 151, 236);
-        font-family: fantasy;
+        font-family: 'MedievalSharp', cursive;
         font-size: xx-small;
         text-shadow: 1px 1px black;
         cursor: pointer;
@@ -879,7 +878,7 @@ border: 1px solid black;
         background-color: rgb(59, 151, 236);
         color:darkred;
         text-shadow: 1px 1px black;
-        font-family: fantasy;
+        font-family: 'MedievalSharp', cursive;
         text-align: center;
         font-size: smaller;
         border: 3px solid black;
@@ -896,13 +895,13 @@ border: 1px solid black;
             background-image: url("dragon2.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            display: none;
+            display: block;
             border: 5px solid black;
             font-size: 20px;
             text-align: center;
             color: darkkhaki;
             text-shadow: 2px 2px black;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'MedievalSharp', cursive;
         }
         #htime{
             height: 55px;
@@ -912,8 +911,8 @@ border: 1px solid black;
             text-align: center;
             background-color: red;
             opacity: 1;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 15px;
+            font-family: 'MedievalSharp', cursive;
+            font-size: 10px;
             display: inherit;
             border: 3px solid black;
             
@@ -926,8 +925,8 @@ border: 1px solid black;
             text-align: center;
             background-color: red;
             opacity: 1;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 15px;
+            font-family: 'MedievalSharp', cursive;
+            font-size: 10px;
             display: inherit;
             border: 3px solid black;
             
@@ -939,8 +938,8 @@ border: 1px solid black;
             margin-left: 42%;
             background-color: red;
             border: 2px solid black;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 15px;
+            font-family: 'MedievalSharp', cursive;
+            font-size: 10px;
             display: inherit;
             cursor: pointer;
             
@@ -960,13 +959,13 @@ border: 1px solid black;
         background-image: url("dragon2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        display: none;
+        display: block;
         border: 5px solid black;
         font-size: 20px;
         text-align: center;
         color: darkkhaki;
         text-shadow: 2px 2px black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'MedievalSharp', cursive;
     }
     #htime{
         height: 55px;
@@ -976,8 +975,8 @@ border: 1px solid black;
         text-align: center;
         background-color: red;
         opacity: 1;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 10px;
         display: inherit;
         border: 3px solid black;
         
@@ -990,8 +989,8 @@ border: 1px solid black;
         text-align: center;
         background-color: red;
         opacity: 1;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 10px;
         display: inherit;
         border: 3px solid black;
         
@@ -1003,8 +1002,8 @@ border: 1px solid black;
         margin-left: 42%;
         background-color: red;
         border: 2px solid black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 10px;
         display: inherit;
         cursor: pointer;
         
