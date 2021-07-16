@@ -30,7 +30,7 @@ for(i=1;i<=(sno-1);i++)
 }
 function finalscorecard()
 {
-    let number = window.localStorage.getItem("hnumber");
+    let number = window.localStorage.getItem("number");
     let score1 = window.localStorage.getItem("scorefinal"+number);
     let score2 = window.localStorage.getItem("hscorefinal"+number);
     let fscore = Math.ceil((parseInt(score1) + 3*parseInt(score2))/4);

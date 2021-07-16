@@ -64,10 +64,10 @@ if(document.getElementById("hboxf1").style.backgroundColor == document.getElemen
 }
 function load()
 {
-    let fresh = window.localStorage.getItem("hnumber");
+    let fresh = window.localStorage.getItem("number");
     window.localStorage.removeItem("hscorefinal" + fresh);
     fresh--;
-    window.localStorage.setItem("hnumber",fresh);
+    window.localStorage.setItem("number",fresh);
 
     window.location.reload();
     document.getElementById("htab").style.display = "none";
@@ -147,9 +147,8 @@ function scorecard()
     sc.innerHTML = "</br>" + "Score : " + Math.floor(point) + " pts";
     if(window.localStorage.getItem("count")!= null)
     {
-    let number = window.localStorage.getItem("hnumber");
+    let number = window.localStorage.getItem("number");
     window.localStorage.setItem("hscorefinal" + number, Math.floor(point));
-    window.localStorage.setItem("hnumber",number);
 }
 }
 function golead(){

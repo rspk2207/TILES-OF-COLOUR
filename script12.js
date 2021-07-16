@@ -1,5 +1,10 @@
 let audio = new Audio('blocksound.mp3');
 let c;
+/*
+let numb = window.localStorage.getItem("number");
+window.localStorage.setItem("scorefinal"+(numb+1),0);
+window.localStorage.setItem("hscorefinal"+(numb+1),0);
+*/
 function swap(c)
 {
 if((c+1)<=25)

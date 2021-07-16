@@ -2,9 +2,12 @@ let sec = 0;
 let audios = new Audio('gameover.mp3');
 let counts = 0;
 let gameplay =0;
+if(window.localStorage.getItem("count")!= null)
+{
 let numb = window.localStorage.getItem("number");
 window.localStorage.setItem("scorefinal"+(numb+1),0);
 window.localStorage.setItem("hscorefinal"+(numb+1),0);
+}
 function winning(){
     counts += 1;
 if(document.getElementById("boxf1").style.backgroundColor == document.getElementById("box7").style.backgroundColor)
